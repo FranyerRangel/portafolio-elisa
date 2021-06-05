@@ -1,0 +1,44 @@
+.menu {
+	display: none;
+}
+
+.menu ul {
+	display: flex;
+	list-style: none;
+	gap: 40px;
+}
+
+.menu ul a {
+	text-decoration: none;
+	color: var(--black);
+	font: var(--button);
+	text-transform: uppercase;
+	opacity: 0.5;
+}
+
+.header-content .button span {
+	display: none;
+}
+
+.menu ul a:hover {
+	opacity: 0.9;
+}
+
+.menu ul a.is-active {
+	color: var(--black);
+	opacity: 1;
+}
+
+.menu ul a.is-active:hover {
+	color: #393939;
+}
+
+@media screen and (min-width: 768px) {
+	.menu {
+		display: block;
+	}
+
+	.header-content .button span {
+		display: inline-block;
+	}
+}

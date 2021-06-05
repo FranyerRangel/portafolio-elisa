@@ -1,0 +1,43 @@
+@import "./button.css";
+@import "./button-icon.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./coment.css";
+@import "./project.css";
+@import "./testimony.css";
+@import "./social.css";
+@import "./footer.css";
+@import "./form.css";
+@import "./title.css";
+
+
+:root {
+	--fontBase: 'Oxygen', sans-serif;
+	--headline1: bold 95px/153.71px var(--fontBase);
+	--headline2: bold 59px/95px var(--fontBase);
+	--headline3: bold 48px/77px var(--fontBase);
+	--headline4: 34px/55px var(--fontBase);
+	--headline5: bold 24px/38px var(--fontBase);
+	--body1: 16px/25px var(--fontBase);
+	--body2: 14px/22px var(--fontBase);
+	--button: bold 14px/22px var(--fontBase);
+	--caption: 12px/19px var(--fontBase);
+	--gradient: linear-gradient(135deg, #fad7a1, #e96d71);
+	--purple: purple;
+	--black: #0F0A0A;
+	--green: #42E2B8;
+	--green-hover: #69EDCA;
+	--white: white;
+	scroll-behavior: smooth;
+}
+
+body {
+	background: var(--gradient);
+	min-block-size: 100vh;
+	font: var(--body1);
+	color: var(--black);
+	margin: 0;
+}
+
